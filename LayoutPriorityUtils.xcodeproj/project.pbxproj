@@ -151,10 +151,11 @@
 				TargetAttributes = {
 					77B3CA2B21DEB6D10006C4CA = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 					77B3CA3421DEB6D10006C4CA = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -164,6 +165,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 77B3CA2221DEB6D10006C4CA;
 			productRefGroup = 77B3CA2D21DEB6D10006C4CA /* Products */;
@@ -365,7 +367,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -391,7 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-erbschloe.LayoutPriorityUtils";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -409,7 +411,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-erbschloe.LayoutPriorityUtilsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -427,7 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-erbschloe.LayoutPriorityUtilsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
