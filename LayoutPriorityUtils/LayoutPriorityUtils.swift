@@ -51,4 +51,7 @@ extension UILayoutPriority {
 
     /// A very low layout priority that is not `none`.
     public static let almostNone: UILayoutPriority = .none + 1
+
+    /// A priority between defaultLow and defaultHigh
+    public static let `defaultMedium` = UILayoutPriority(500)
 }

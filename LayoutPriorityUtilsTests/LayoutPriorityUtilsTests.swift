@@ -48,5 +48,6 @@ class LayoutPriorityUtilsTests: XCTestCase {
         XCTAssertEqual(UILayoutPriority.almostRequired.rawValue, 999)
         XCTAssertEqual(UILayoutPriority.none.rawValue, 0)
         XCTAssertEqual(UILayoutPriority.almostNone.rawValue, 1)
+        XCTAssertEqual(UILayoutPriority.defaultMedium.rawValue, 500)
     }
 }
