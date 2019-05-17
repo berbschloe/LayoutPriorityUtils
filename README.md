@@ -1,7 +1,7 @@
 # LayoutPriorityUtils
 
 [![Swift](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift/)
-[![CocoaPods](https://img.shields.io/cocoapods/v/LayoutPriorityUtils.svg)](https://cocoapods.org/pods/Squidward)
+[![CocoaPods](https://img.shields.io/badge/pod-1.1.1-blue.svg)](https://cocoapods.org/pods/Squidward)
 
 A small collection of utils for UILayoutPriority that adds operator overloads and common constants.
 
