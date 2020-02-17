@@ -8,10 +8,21 @@ let package = Package(
     .iOS(.v9)
   ],
   products: [
-    .library(name: "LayoutPriorityUtils", targets: ["LayoutPriorityUtils"]),
+    .library(
+      name: "LayoutPriorityUtils", 
+      targets: ["LayoutPriorityUtils"]
+    ),
   ],
   targets: [
-    .target(name: "LayoutPriorityUtils"),
-    .testTarget(name: "LayoutPriorityUtilsTests", dependencies: ["LayoutPriorityUtils"]),
-  ]
+    .target(
+      name: "LayoutPriorityUtils", 
+      path: "LayoutPriorityUtils"
+    ),
+    .testTarget(
+      name: "LayoutPriorityUtilsTests", 
+      dependencies: ["LayoutPriorityUtils"], 
+      path: "LayoutPriorityUtilsTests"
+    ),
+  ],
+  swiftLanguageVersions: [.v5]
 )
