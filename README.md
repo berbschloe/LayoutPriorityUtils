@@ -1,7 +1,7 @@
 # LayoutPriorityUtils
 
 [![Swift](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift/)
-[![CocoaPods](https://img.shields.io/badge/pod-v1.2.0-blue.svg)](https://cocoapods.org/pods/LayoutPriorityUtils)
+[![CocoaPods](https://img.shields.io/badge/pod-v1.2.1-blue.svg)](https://cocoapods.org/pods/LayoutPriorityUtils)
 
 A small collection of utils for UILayoutPriority that adds operator overloads and common constants.
 
@@ -16,7 +16,7 @@ A small collection of utils for UILayoutPriority that adds operator overloads an
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate the library into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'LayoutPriorityUtils', '1.2.0'
+pod 'LayoutPriorityUtils', '1.2.1'
 ```
 
 ### Swift Package Manager
@@ -25,7 +25,7 @@ The [Swift Package Manager](https://swift.org/package-manager/) is a tool for au
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/berbschloe/LayoutPriorityUtils.git", from: "1.2.0")
+    .package(url: "https://github.com/berbschloe/LayoutPriorityUtils.git", from: "1.2.1")
 ]
 ```
 
