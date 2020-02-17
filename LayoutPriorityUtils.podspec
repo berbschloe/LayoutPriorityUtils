@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = "LayoutPriorityUtils"
-    s.version = "1.1.0"
+    s.version = "1.2.0"
     s.summary = "A small collection of utils for UILayoutPriority that adds operator overloads and common constants."
     s.homepage = "https://github.com/berbschloe/LayoutPriorityUtils"
     s.license = "MIT"
