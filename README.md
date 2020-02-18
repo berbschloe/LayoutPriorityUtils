@@ -2,6 +2,7 @@
 
 [![Swift](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift/)
 [![CocoaPods](https://img.shields.io/badge/pod-v1.2.1-blue.svg)](https://cocoapods.org/pods/LayoutPriorityUtils)
+[![SwiftPm](https://img.shields.io/badge/swiftpm-compatible-limegreen.svg?)](https://swift.org/package-manager)
 
 A small collection of utils for UILayoutPriority that adds operator overloads and common constants.
 
